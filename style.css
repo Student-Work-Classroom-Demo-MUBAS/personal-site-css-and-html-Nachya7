@@ -1,13 +1,13 @@
-/* Add a black background color to the top navigation */
+/* Adding a black background color to the top navigation */
 .topnav {
-  background-color: #ddd;
+  background-color: black;
   overflow: hidden;
   display: flex;
   justify-content: flex-end;
   gap: 0;  
 }
 
-/* Style the links inside the navigation bar */
+/* Styling the links inside the navigation bar */
 .topnav a {
   float: left;
   color: #f2f2f2;
@@ -17,16 +17,16 @@
   font-size: 17px;
 }
 
-/* Change the color of links on hover */
+/* Changing the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #edd899;
   color: black;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #8a7637;
-  color: white;
+  background-color: #edd899;
+  color:white;
 }
 
 /*Applying globally*/
@@ -38,7 +38,7 @@
 }
 
 .hero-image {
-  background-image: url('images/Background.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/Background.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
