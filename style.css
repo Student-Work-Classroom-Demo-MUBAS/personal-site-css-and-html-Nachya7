@@ -61,3 +61,57 @@ header {
 span {
     color: var(--main-color);
 }
+
+/* Navigation List styling */
+.nav-list {
+    display: flex;
+}
+
+/* Navigation Links styling */
+.nav-list a{
+    color: var(--second-color);
+    font-size: 17px;
+    font-weight: 500;
+    margin: 0 25px;
+    transition: all 0.45s ease;
+}
+
+/* Navigation Links hover and active states */
+.nav-list a:hover {
+    color: var(--main-color);
+}
+
+.nav-list a:active {
+    color: var(--main-color);
+}
+
+/* Menu Icon for Mobile View */
+.menu-icon {
+    display: none;
+    font-size: 35px;
+    color: var(--text-color);
+    z-index: 1000;
+    cursor: pointer;
+    margin-left: 25px;
+    display: none;
+}
+
+/* Section Styling */
+section {
+    padding: 160px 15 120px;
+}
+
+
+/* Hero Section Styling */
+.hero {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('Background.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
