@@ -292,3 +292,31 @@ section {
     transform: translateY(-8px);
     cursor: pointer;
 }
+
+/* Projects Section Styling */
+.projects-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    align-items: center;
+    gap: 2.5rem;
+    margin-top: 5rem ;
+}
+
+/* Project Row Styling */
+.row {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Project Image Styling */
+.row img {
+    width: 100%;
+    height: 250px;
+    border-radius: 8px;
+    display: block;
+    transition: transform 0.5s;
+    object-fit: cover;
+    filter: brightness(0.9) contrast(1.1);
+}
