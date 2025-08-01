@@ -1,64 +1,63 @@
-/* Adding a black background color to the top navigation */
-.topnav {
-  background-color: black;
-  overflow: hidden;
-  display: flex;
-  justify-content: flex-end;
-  gap: 0;  
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* Resetting the default styles and base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
 }
 
-/* Styling the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+/* Root Variables for Colors and Fonts to help with consistency */
+:root {
+    --bg-color: #2a2a2a;
+    --second-bg-color: #202020;
+    --text-color: #fff;
+    --second-color: #ccc;
+    --main-color: #edd899;
+    --big-font: 5rem;
+    --h2-font: 3rem;
+    --p-font: 1.1rem;
 }
 
-/* Changing the color of links on hover */
-.topnav a:hover {
-  background-color: #edd899;
-  color: black;
+/* Body Styling */
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
 }
 
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #edd899;
-  color:white;
+/* Header Navigation styling */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px 15;
+    z-index: 1000;
+    border-bottom: 1px solid transparent;
+    transition: all 0.4s ease;
 }
 
-/*Applying globally*/
-*{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
+/* Logo styling */
+.logo {
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--text-color);
+    letter-spacing: 1px;
 }
 
-.hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/Background.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  display: flex;
-  height: 100vh;
-  width: 100vw;
-  
-  align-items: center;
-
+/* Spanning effect */
+span {
+    color: var(--main-color);
 }
-
-.hero-text {
-  text-align: left;
-  color: white;
-  padding-left: 0.7vw;
-  max-width: 90vw;
-} 
-
-.hero-text p {
-  font-size: 1.4vw;
-  margin-bottom: 2.0vw;
-}
-
