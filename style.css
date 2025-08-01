@@ -504,4 +504,23 @@ footer {
   margin-top: 2rem;
 }
 
+/* Responsive Design */
+@media (max-width: 1480px) {
 
+/* Header Navigation styling for smaller screens */
+    header {
+        padding: 12px 2.5%;
+        transition: 0.1s;
+    }
+
+/* Header Navigation styling for smaller screens */
+    section{
+        padding: 110px 3% 60px;
+    }
+
+/* Hero Section height adjustment */
+    .end{
+    padding: 11px 3%;
+  }
+
+}
