@@ -380,3 +380,34 @@ section {
 .row:hover .layer {
     height: 100%;
 }
+
+/* Contact Section Styling */
+.contact{
+    background: var(--second-bg-color);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+    align-items: center;
+}
+
+/* Contact Text Styling */
+.contact-text h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-bottom: 18px 0;
+}
+
+/* Contact Text h2 styling */
+.contact-text h2 {
+    font-size: var(--h2-font);
+    line-height: 1;
+}
+
+/* Contact Text paragraph styling */
+.contact-text p {
+    font-size: var(--p-font);
+    color: var(--second-color);
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
