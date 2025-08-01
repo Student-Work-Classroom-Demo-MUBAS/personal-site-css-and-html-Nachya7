@@ -101,17 +101,67 @@ section {
     padding: 160px 15 120px;
 }
 
-
 /* Hero Section Styling */
 .hero {
     position: relative;
     height: 100vh;
     width: 100%;
-   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('Background.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/Background.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
+/* Hero Text Styling */
+.slide {
+    margin-bottom: 20px;
+}
+
+/* Hero Text First span */
+.One {
+    display: inline-block;
+    padding: 0 15px;
+    margin-right: 15px;
+    line-height: 32px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: px;
+    background: var(--main-color);
+    color: var(--text-color);
+}
+/* Hero Text Second span */
+.Two {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+/* Hero Text h1 styling*/
+.hero-text h1 {
+    font-size: var(--big-font);
+    font-weight: 700;
+    color: var(--text-color);
+    margin: 0 0 3px;
+}
+
+/* Hero Text h3 styling */
+.hero-text h3 {
+    color: var(--text-color);
+    margin: 0 0 35px;
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+/* Hero Text paragraph styling */
+.hero-text p {
+    font-size: var(--p-font);
+    color: var(--second-color);
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
 
