@@ -495,4 +495,13 @@ section {
     cursor: pointer;
 }
 
+* Footer Styling */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: var(--bg-color);
+  color: white;
+  margin-top: 2rem;
+}
+
 
