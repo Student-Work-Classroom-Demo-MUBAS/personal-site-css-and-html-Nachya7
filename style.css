@@ -320,3 +320,63 @@ section {
     object-fit: cover;
     filter: brightness(0.9) contrast(1.1);
 }
+
+/* Layer Styling */
+.layer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), #a0aaff);
+    position: absolute;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 40px;
+    transition: height 0.5s;
+    text-align: center;
+    justify-content: flex-start;
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+
+/* Layer h3 Styling */
+.layer h3 {
+    font: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+/* Layer paragraph Styling */
+.layer p {
+    font-size: 1rem;
+    color: var(--second-color);
+    line-height: 1.8;
+}
+
+/* Layer Icon Styling */
+.layer i{
+    color: var (--main-color);
+    margin-top: 20px;
+    font-size: 28px;
+    background: var(--text-color);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+/* Layer hover effect */
+.row:hover img {
+    transform: scale(1.1);
+}
+
+/* Layer hover effect */
+.row:hover .layer {
+    height: 100%;
+}
