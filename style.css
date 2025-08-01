@@ -565,3 +565,46 @@ footer {
     }
 
 }
+
+@media (max-width: 480px) {
+/* Header Navigation styling for mobile view */
+    .menu-icon {
+        display: block;
+    }
+/* Navigation List styling for mobile view */
+    .nav-list {
+        position: absolute;
+        top: 1000px;
+        right: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        background: var(--bg-color);
+        text-align: left;
+        transition: all 0.45s ease;
+    }
+
+/* Navigation List Links styling */
+    .nav-list a {
+        display: block;
+        margin: 17px;
+        font-size: 26px;
+        transition: all 0.45s ease;
+        color: var(--text-color);
+    }
+
+/* Navigation List hover effect */
+    .nav-list a:hover {
+        color: var(--main-color);
+    }
+
+/* Navigation List active state */
+    .nav-list a.active {
+        color: var(--text-color);
+    }
+  
+/* Navigation List open state */
+    .nav-list.open{
+        top: 100%;
+    }
+}
